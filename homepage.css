@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-image{
+    background-image: url("green.jpg");
+    height:245vh;
+    background-size:cover;
+}
+
+.logo{
+    height:100px;
+    width:100px;
+}
+
+.headline h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headline h1 span {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.headline h1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.headline h1 span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.headline h1 span:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.headline h1 span:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.headline h1 span:nth-child(5) {
+    animation-delay: 2s;
+}
+
+.headline h1 span:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+.headline h1 span:nth-child(7) {
+    animation-delay: 3s;
+}
+
+.headline h1 span:nth-child(8) {
+    animation-delay: 3.5s;
+}
+
+.headline h1 span:nth-child(9) {
+    animation-delay: 4s;
+}
+
+.headline h1 span:nth-child(10) {
+    animation-delay: 4.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.image1{
+    margin:20px;
+    height:100px;
+    width:100px;
+    border-radius:20px;
+}
+
+.school-container{
+    height:340px;
+    width:280px;
+    margin:100px;
+    background-color:bisque;
+    border-radius:40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    padding:60px 20px;
+    font-size:35px;
+    padding: top 5%;
+    padding-bottom: 2px;
+}
+
+.minipara{
+    padding:20px 20px;
+    font-size:15px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.box-button{
+    padding-top:0;
+    text-align: center;
+    margin:10px;
+}
+
+.promotions-image{
+    height:30px;
+    width:30px;
+    margin:40px;
+}
+
+
+
+
+
+.loginpage-bg{
+    background-image: url("green.jpg");
+    height:120vh;
+    width:100vw;
+    background-size:cover;
+    padding-top: 70px;
+    
+}
+
+.container{
+    padding:30px;
+    height:600px;
+    width:700px;
+    background-color:lightskyblue;
+}
+
+.loginlogo{
+    height:30px;
+    width:30px;
+}
